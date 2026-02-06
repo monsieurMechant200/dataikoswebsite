@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Mise en forme Word / Excel / PowerPoint",
+        "description": "Transformez vos documents bruts en chef-d'œuvres structurés avec notre expertise en mise en forme.",
+        "icon": "fa-file-word",
+        "key": "mise-en-forme"
+    },
+    {
+        "title": "Audit & Optimisation",
+        "description": "Optimisez vos documents avec une analyse approfondie et des recommandations personnalisées.",
+        "icon": "fa-search",
+        "key": "audit-optimisation"
+    },
+    {
+        "title": "Présentations visuelles impactantes",
+        "description": "Créez des présentations qui captivent votre auditoire avec des designs professionnels.",
+        "icon": "fa-presentation",
+        "key": "presentations-visuelles"
+    },
+    {
+        "title": "Automatisation Excel & Reporting",
+        "description": "Automatisez vos tâches répétitives et générez des rapports intelligents automatisés.",
+        "icon": "fa-chart-line",
+        "key": "automatisation"
+    },
+    {
+        "title": "Design Graphique personnalisé",
+        "description": "Des designs uniques qui renforcent votre identité visuelle et votre branding.",
+        "icon": "fa-palette",
+        "key": "design-graphique"
+    }
+]

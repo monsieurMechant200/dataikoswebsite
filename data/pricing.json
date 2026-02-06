@@ -1,0 +1,27 @@
+{
+    "mise-en-forme": {
+        "base": { "price": 3000, "name": "Formule Base", "desc": "Par page" },
+        "pro": { "price": 7000, "name": "Formule Pro", "desc": "Document complet" },
+        "premium": { "price": 15000, "name": "Formule Premium", "desc": "Service personnalisé" }
+    },
+    "audit-optimisation": {
+        "base": { "price": 5000, "name": "Formule Base", "desc": "Par document" },
+        "pro": { "price": 10000, "name": "Formule Pro", "desc": "Avec recommandations" },
+        "premium": { "price": 20000, "name": "Formule Premium", "desc": "Avec corrections" }
+    },
+    "presentations-visuelles": {
+        "base": { "price": 10000, "name": "Formule Base", "desc": "5 slides" },
+        "pro": { "price": 20000, "name": "Formule Pro", "desc": "10 slides" },
+        "premium": { "price": 35000, "name": "Formule Premium", "desc": "Avec charte graphique" }
+    },
+    "automatisation": {
+        "base": { "price": 15000, "name": "Formule Base", "desc": "Dashboard simple" },
+        "pro": { "price": 30000, "name": "Formule Pro", "desc": "Analyse avancée" },
+        "premium": { "price": 50000, "name": "Formule Premium", "desc": "Avec formation" }
+    },
+    "design-graphique": {
+        "base": { "price": 5000, "name": "Formule Base", "desc": "Visuel statique" },
+        "pro": { "price": 12000, "name": "Formule Pro", "desc": "Carrousel ou affiche" },
+        "premium": { "price": 20000, "name": "Formule Premium", "desc": "Avec animation" }
+    }
+}

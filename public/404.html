@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page non trouvée - DATAIKÔS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/themes.css">
+</head>
+<body class="theme-dark">
+    <div class="bg-animation"></div>
+    
+    <div class="page-container active" style="min-height: 100vh; display: flex; align-items: center; justify-content: center;">
+        <div class="page-content text-center">
+            <div class="glass-card" style="max-width: 600px; margin: 0 auto;">
+                <h1 class="hero-title mb-4">404</h1>
+                <p class="hero-subtitle mb-4">Page non trouvée</p>
+                <p class="mb-4">La page que vous recherchez n'existe pas ou a été déplacée.</p>
+                <div class="mt-4">
+                    <a href="/" class="glass-btn primary mr-2">
+                        <i class="fas fa-home"></i>
+                        Retour à l'accueil
+                    </a>
+                    <a href="#contact" onclick="changePage('contact')" class="glass-btn">
+                        <i class="fas fa-envelope"></i>
+                        Nous contacter
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/main.js"></script>
+    <script src="/js/themes.js"></script>
+</body>
+</html>

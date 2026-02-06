@@ -1,0 +1,66 @@
+/* === THÈMES === */
+body.theme-light {
+    --primary-bg: #F5F7FA;
+    --secondary-bg: #FFFFFF;
+    --accent-color: #007AFF;
+    --gold: #FF9500;
+    --success: #34C759;
+    --warning: #FF3B30;
+    --text-primary: #1D1D1F;
+    --text-secondary: #86868B;
+    --glass-bg: rgba(0, 0, 0, 0.03);
+    --glass-border: rgba(0, 0, 0, 0.08);
+    --glass-border-heavy: rgba(0, 0, 0, 0.15);
+    --navbar-glass-bg: rgba(245, 247, 250, 0.6);
+}
+
+body.theme-pink {
+    --primary-bg: #1A0B2E;
+    --secondary-bg: #2D1B47;
+    --accent-color: #FF2E93;
+    --gold: #FFD700;
+    --success: #00FF88;
+    --warning: #FF6B35;
+    --text-primary: #FFFFFF;
+    --text-secondary: #E0C3FF;
+    --glass-bg: rgba(255, 46, 147, 0.05);
+    --glass-border: rgba(255, 46, 147, 0.1);
+    --glass-border-heavy: rgba(255, 46, 147, 0.2);
+    --gradient-accent: linear-gradient(135deg, #FF2E93 0%, #FF6B9D 100%);
+    --navbar-glass-bg: rgba(26, 11, 46, 0.6);
+}
+
+body.theme-neon {
+    --primary-bg: #000000;
+    --secondary-bg: #0A0A0A;
+    --accent-color: #FF0000;
+    --gold: #FF0000;
+    --success: #00FF00;
+    --warning: #FFFF00;
+    --text-primary: #FFFFFF;
+    --text-secondary: #CCCCCC;
+    --glass-bg: rgba(255, 0, 0, 0.05);
+    --glass-border: rgba(255, 0, 0, 0.2);
+    --glass-border-heavy: rgba(255, 0, 0, 0.4);
+    --gradient-accent: linear-gradient(135deg, #FF0000 0%, #FF3333 100%);
+    --navbar-glass-bg: rgba(0, 0, 0, 0.6);
+}
+
+/* Background animations pour chaque thème */
+body.theme-light .bg-animation {
+    background: 
+        radial-gradient(circle at 10% 20%, rgba(0, 122, 255, 0.05) 0%, transparent 40%),
+        radial-gradient(circle at 90% 80%, rgba(255, 149, 0, 0.05) 0%, transparent 40%);
+}
+
+body.theme-pink .bg-animation {
+    background: 
+        radial-gradient(circle at 10% 20%, rgba(255, 46, 147, 0.1) 0%, transparent 40%),
+        radial-gradient(circle at 90% 80%, rgba(224, 195, 255, 0.1) 0%, transparent 40%);
+}
+
+body.theme-neon .bg-animation {
+    background: 
+        radial-gradient(circle at 10% 20%, rgba(255, 0, 0, 0.15) 0%, transparent 40%),
+        radial-gradient(circle at 90% 80%, rgba(0, 255, 0, 0.1) 0%, transparent 40%);
+}
